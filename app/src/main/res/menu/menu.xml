@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bluring"
+            android:checkable="true"
+            android:checked="false"
+            android:title="Bluring" />
+        <item
+            android:id="@+id/coloring"
+            android:checkable="true"
+            android:checked="false"
+            android:title="Coloring" />
+        <item
+            android:id="@+id/penwbig"
+            android:checkable="true"
+            android:checked="false"
+            android:title="Pen Width Big" />
+        <item
+            android:checkable="false"
+            android:id="@+id/pencred"
+            android:title="Pen Color RED" />
+        <item
+            android:checkable="false"
+            android:id="@+id/pencblue"
+            android:title="Pen Color BLUE" />
+    </group>
+</menu>
